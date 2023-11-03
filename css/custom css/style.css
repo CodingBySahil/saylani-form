@@ -1,0 +1,71 @@
+
+.header-top{
+    background-color: #fffbe6;
+    color: #721c24;
+    padding: 8px 15px;
+    font-size: 12.8px;
+}
+
+#saylani-logo-container{
+    background-image: url('../../assets/images/bg.png');
+    height: 170px;
+    position: relative;
+}
+
+
+#saylani-logo img{
+    width: 250px;
+    padding-top: 10px;
+}
+
+.social-icons{
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+}
+
+#logo-title{
+    font-weight: bold;
+}
+
+.form-btn{
+    border: 1px solid blue;
+    color: blue;
+}
+
+#student{
+    height: 16px;
+    width: 16px;
+}
+
+.para{
+    color: grey;
+    font-size: 11px;
+    text-align: center;
+}
+
+/*  Navbar Css Started here */
+
+.nav-bar{
+    background: #fff;
+    color: #1890ff;
+}
+
+
+#navbarNav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar:active{
+    color: green;
+}
+.nav-bar:hover{
+    color: green;
+}
+
+#end-para{
+    font-size: 14px;
+    list;
+}
+

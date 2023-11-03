@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- bootstrap css -->
+  <!-- <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/custom css/style.css">
+  <title>Saylani Form</title>
+</head>
+<body>
+  <!-- header -->
+  <header>
+  <!-- header top start -->
+    <div class="cantainer-fluid">
+      <div class="row text-center">
+        <div class="col-12 header-top">
+          <div>
+            <span><b>Saylani Devathon Summit 1.0</b></span><br>
+            <span>Last Date to Apply for the Participation in Saylani Devathon Summit 1.0 is Tuesday 24th October 2023</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header top End -->
+    <!-- saylani image section start -->
+    <div class="container" id="saylani-logo-container">
+      <div class="row ">
+        <div class="col-12 d-flex justify-content-center mb-2" id="saylani-logo">
+          <img src="assets/images/logo.png" alt="saylani logo">
+        </div>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-2 ">
+          <p class="d-flex justify-content-center">
+            <img src="assets/images/facebook-icon.png" class="image-fluid social-icons" alt="facbook logo">
+            <img src="assets/images/instagram-icon.png" class="image-fluid social-icons" alt="facbook logo">
+            <img src="assets/images/youtube-icon.png" class="image-fluid social-icons" alt="facbook logo">
+          </p>
+        </div>
+        <div class="col-5">
+          <h3 id="logo-title">Saylani Devathon Summit 1.0</h3>
+        </div>
+        <div class="col-2">
+          <button class="btn rounded form-btn" >
+            <img id="student" src="assets/images/student-icon.png" alt="">Student portal
+          </button>
+        </div>
+        <div class="col-12">
+          <p class="para">Services - Education - Regestration</p>
+        </div>
+      </div>
+    </div>
+    <!-- saylani image section start -->
+
+    <!-- navbar of page start-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link nav-bar" href="index.html">New Application</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-bar" href="id-card.html">Download ID Card</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-bar" href="result.html">Result</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar of page end-->
+  </header>
+
+  <main>
+    <!-- main form started here  -->
+    <div class="container">
+      <div class="row justify-content-evenly">
+        
+        <div class="col-5">
+          <div class="form-group mt-3 mb-3">
+            <label for="select-city" class="text-primary mb-1">select city</label>
+            <select class="form-control border border-success" id="select-city">
+              <option class="text-secondary">select your city</option>
+              <option>Peshawar</option>
+              <option>Islamabad</option>
+              <option>Karachi</option>
+              <option>Rawalpindi</option>
+              <option>Lahore</option>
+            </select>
+          </div>        
+        </div>
+
+        <div class="col-5">  
+          <div class="form-group mt-3 mb-3">
+            <label for="select-course" class="text-primary mb-1">Select course or event</label>
+            <select class="form-control border border-success" id="select-course">
+              <option class="text-secondary">Select course or event</option>
+              <option>Web and Mobile App Developement</option>
+              <option>Graphic Designing</option>
+              <option>Mobile Repairing</option>
+              <option>Basic of Computer</option>
+              <option>OS of Computer</option>
+            </select>
+          </div>  
+        </div>
+
+        <div class="col-5">  
+          <div class="form-group mt-3 mb-3">
+            <label for="full-name" class="text-primary mb-1">Full Name</label>
+            <input type="text" class="form-control border border-success" id="full-name" placeholder="Full Name"></input>
+          </div>  
+        </div>
+        
+        <div class="col-5">  
+          <div class="form-group mt-3 mb-3">
+            <label for="father-name" class="text-primary mb-1">Father Name</label>
+            <input type="text" class="form-control border border-success" id="father-name" placeholder="Father Name"></input>
+          </div>  
+        </div>
+        
+        <div class="col-5">  
+          <div class="form-group mt-3 mb-3">
+            <label for="email" class="text-primary mb-1">Email</label>
+            <input type="email" class="form-control border border-success" id="email" placeholder="Email"></input>
+          </div>  
+        </div>
+        
+        <div class="col-5">  
+          <div class="form-group mt-3 mb-3">
+            <label for="phone"  class="text-primary mb-1">Phone</label>
+            <input type="tel" class="form-control border border-success" id="phone" placeholder="phone"></input>
+          </div>  
+        </div>
+        
+        <div class="col-5">  
+          <div class="form-group mt-3 mb-3">
+            <label for="CNIC" class="text-primary mb-1">CNIC</label>
+            <input type="tel" class="form-control border border-success" id="cnic" placeholder="cnic"></input>
+          </div>  
+        </div>
+        
+        <div class="col-5">  
+          <div class="form-group mt-3 mb-3">
+            <label for="father-cnic"  class="text-primary mb-1 ">Father's CNIC (optional)</label>
+            <input type="tel" class="form-control border border-success" id="father-cnic" placeholder="Father's CNIC (optional)"></input>
+          </div>  
+        </div>
+
+        <div class="col-5">  
+          <div class="form-group mt-3 mb-3">
+            <label for="date-of-birth"  class="text-primary mb-1 ">Date Of Birth</label>
+            <input type="date" class="form-control border border-success" id="date-of-birth" placeholder="Date Of Birth"></input>
+          </div>  
+        </div>
+        
+        <div class="col-5">  
+          <div class="form-group mt-3 mb-3">
+            <label for="gender" class="text-primary mb-1">Gender</label>
+            <select class="form-control border border-success" id="gender">
+              <option class="text-secondary">Select your Gender</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Custom</option>
+            </select>
+          </div>  
+        </div>
+        
+        <div class="col-11">  
+          <div class="form-group mt-3 mb-3">
+            <label for="address"  class="text-primary mb-1 ">Address</label>
+            <input type="text" class="form-control border border-success" id="address" placeholder="Address"></input>
+          </div>  
+        </div>
+        
+        <div class="col-11">  
+          <div class="form-group mt-3 mb-3">
+            <label for="last-qualification" class="text-primary mb-1">Last Qualification</label>
+            <select class="form-control border border-success" id="last-qualification">
+              <option class="text-secondary">Last Qualification</option>
+              <option>Matric</option>
+              <option>intermediate</option>
+              <option>Undergraduate</option>
+              <option>Graduate</option>
+              <option>Masters</option>
+              <option>PHD</option>
+              <option>Others</option>
+            </select>
+          </div>  
+        </div>
+
+        <div class="col-11">  
+          <div class="form-group mt-3 mb-3">
+            <label for="have-laptop" class="text-primary mb-1">Do you have laptop</label>
+            <select class="form-control border border-success" id="have-laptop">
+              <option class="text-secondary">Do you have laptop</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>  
+        </div>
+
+        <dav class="col-11 row justify-content-start mt-5 mb-5" >
+          <div class="col-2 ">
+            <input type="file">
+          </div>
+          <div class="col-5 ">
+            <ul class="list-group list-group-flush ">
+              <li class="list-group-item">With white or blue background</li>
+              <li class="list-group-item">File size must be less than 1MB</li>
+              <li class="list-group-item">File type: jpg, jpeg, png</li>
+              <li class="list-group-item">Upload your recent passport size picture</li>
+              <li class="list-group-item"> Your Face should be clearly visible without any Glasses</li>
+            </ul>
+          </div>
+        </dav>
+
+        <hr>
+
+        <dav class="col-11">
+          <ol id="end-para">
+            <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT</li>
+            <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</li>
+            <li>Defiance will render my admission canceled at any point in time.</li>
+            <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+            <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+          </ol>
+        </dav>
+
+        <dav  class="col-12">
+          <button style="width: 100%;" type="submit" class="btn btn-primary btn-lg btn-block">submit</button>
+        </dav>
+
+      </div>
+    </div>
+    <!-- main form Ended here  -->
+  </main>
+
+  <footer>
+    <p class="bg-secondary text-light p-3 text-center mt-5">&copy; all right reserved 2023</p>
+  </footer>
+
+  <!-- Bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
